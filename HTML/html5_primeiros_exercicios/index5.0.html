@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>input</title>
+    </head>
+
+    <body>
+        <h1>input</h1>
+
+        <form>
+
+            <!-- esconde a senha digitada-->
+            <input type="password"> <br><br>
+
+            <!-- mostra erro ao digitar formado diferente do email-->
+            <input type="email"> <br><br>
+
+            <!-- date somente data e datetime é hora e data-->
+            <input type="datetime-local"> <br><br>
+
+            <input type="number" min="0" max="5"> <br><br>
+
+            <input type="file"> <br><br>
+
+            <p>Escolha sua linguagem</p>
+
+            <!-- checked permite que a pagina já carrega com a checkbox selecionada -->
+            <!-- name é o que permite que apenas uma caixa seja selecionada em um conjunto-->
+            <input type="checkbox" checked name="web" id="html">
+            <label for="html">HTML</label>
+
+            <input type="checkbox" name="web">
+            <label>CSS</label>
+
+            <input type="checkbox" name="web">
+            <label>JS</label>
+
+            <br><br>
+
+            <input type="text" placeholder="Seu nome" required>
+
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
